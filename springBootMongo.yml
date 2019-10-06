@@ -30,7 +30,7 @@ spec:
   ports:
     - port: 8080
       targetPort: 8080
-      nodeport: 32500
+    - nodeport: 32500
   selector:
     name: springboot
 ---
